@@ -8,13 +8,11 @@ addons:
     packages:
     - gcc-4.9
     - g++-4.9
-  
-compiler:
-  - g++
 
 env:
   CC=gcc-4.9 
   CXX=g++-4.9
+  BUILD_TYPE=Release
 
 before_install:
  # - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
