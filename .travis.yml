@@ -4,19 +4,15 @@ cache:
 addons:
   apt:
     sources:
-    # - boost-latest
     - ubuntu-toolchain-r-test
     packages:
     - gcc-4.9
     - g++-4.9
-    #- libboost1.55-all-dev
-
+  
 compiler:
   - g++
 
 env:
-  global:
-   - JOBS=4
   CC=gcc-4.9 
   CXX=g++-4.9
 
